@@ -5,14 +5,14 @@ body:
   - type: input
     id: record
     attributes:
-      label: Record
-      description: Copy the page URL or version/type/ID.
+      label: Page
+      description: Paste the link to the item, quest, NPC or dungeon page.
     validations:
       required: true
   - type: input
     id: build
     attributes:
-      label: Game build
+      label: Game version
     validations:
       required: true
   - type: textarea

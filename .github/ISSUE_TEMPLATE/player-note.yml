@@ -6,21 +6,21 @@ body:
   - type: input
     id: record
     attributes:
-      label: Record
-      description: Use forever/item/ID, forever/quest/ID, or another version/type/ID.
+      label: Page
+      description: Paste the link to the item, quest, NPC or dungeon page.
     validations:
       required: true
   - type: input
     id: build
     attributes:
-      label: Game build
-      description: The build in which you observed this.
+      label: Game version
+      description: The game version you were playing when you saw this.
     validations:
       required: true
   - type: textarea
     id: contribution
     attributes:
       label: Contribution
-      description: Describe the tip and where you observed it. Drag screenshots into this box.
+      description: Share your tip and tell us where and when you saw it in game. Drag screenshots here.
     validations:
       required: true
