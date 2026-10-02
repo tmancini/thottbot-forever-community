@@ -1,0 +1,26 @@
+name: Player note or screenshot
+description: Share a practical tip or in-game observation.
+title: "[Player note] "
+labels: [player-note]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: Use forever/item/ID, forever/quest/ID, or another version/type/ID.
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Game build
+      description: The build in which you observed this.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Describe the tip and where you observed it. Drag screenshots into this box.
+    validations:
+      required: true

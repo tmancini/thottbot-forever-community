@@ -1,0 +1,24 @@
+name: Data correction
+description: Report an incorrect record with evidence.
+title: "[Correction] "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: Copy the page URL or version/type/ID.
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Game build
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Contribution
+      description: What should change? Include observations and drag screenshots here.
+    validations:
+      required: true
